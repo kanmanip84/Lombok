@@ -13,6 +13,7 @@ public class BankDetails {
     private String accno;
     private String acc_type;
     private long balance;
+
    //private long amt;
 
 }

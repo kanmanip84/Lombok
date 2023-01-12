@@ -10,4 +10,6 @@ import lombok.Setter;
 
 public class BankDetails1 {
     private long amt;
+
 }
+

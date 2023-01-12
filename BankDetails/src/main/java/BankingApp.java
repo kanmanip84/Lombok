@@ -4,6 +4,8 @@ public class BankingApp {
 
         System.out.println(setDetails());
         System.out.println(setDeposit());
+        withdraw wd=new withdraw();
+        System.out.println(wd.getWithdraw());
 
     }
 
@@ -26,5 +28,7 @@ public class BankingApp {
         System.out.println("Last Deposited Money to your A/C:" + bt.getAmt());
         return("");
     }
+
+
 
 }
